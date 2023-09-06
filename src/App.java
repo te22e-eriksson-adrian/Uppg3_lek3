@@ -31,6 +31,12 @@ public class App {
         tangentbord.nextLine();
         kvot = tal3 % tal4;
         System.out.println("Rest av talen "+tal3+"/"+tal4+" = "+kvot);
+        System.out.println("                   ");
+        /*System.out.print("Ange koefficient: ");
+        double a = tangentbord.nextDouble();
+        System.out.print("Ange exponent: ");
+        double b = tangentbord.nextDouble();
+        System.out.println(Math.pow(a, b)); */
         tangentbord.close();
     }
 }
