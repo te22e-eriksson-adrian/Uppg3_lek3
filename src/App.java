@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//import java.lang.Math;
+import java.lang.Math;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -32,11 +32,11 @@ public class App {
         kvot = tal3 % tal4;
         System.out.println("Rest av talen "+tal3+"/"+tal4+" = "+kvot);
         System.out.println("                   ");
-        /*System.out.print("Ange koefficient: ");
+        System.out.print("Ange koefficient: ");
         double a = tangentbord.nextDouble();
         System.out.print("Ange exponent: ");
         double b = tangentbord.nextDouble();
-        System.out.println(Math.pow(a, b)); */
+        System.out.println(Math.pow(a, b)); 
         tangentbord.close();
     }
 }
