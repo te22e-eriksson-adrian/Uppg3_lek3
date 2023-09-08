@@ -36,7 +36,12 @@ public class App {
         double a = tangentbord.nextDouble();
         System.out.print("Ange exponent: ");
         double b = tangentbord.nextDouble();
-        System.out.println(Math.pow(a, b)); 
+        System.out.println("Talet är = "+Math.pow(a, b)); 
+        System.out.print("Ange tal 5: ");
+        double tal5 = tangentbord.nextDouble();
+        System.out.print("Ange tal 6: ");
+        double tal6 = tangentbord.nextDouble();
+        System.out.println("Det största talet är: "+Math.max(tal5, tal6));
         tangentbord.close();
     }
 }
